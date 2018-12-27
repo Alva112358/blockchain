@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Computer Shop</title>
+        <link lang="scss" href='./styles/app.css' rel='stylesheet/scss' type='text/css'>
+        <script src="./app.js"></script>
+    </head>
+    <body>
+        <div id="Outline">
+            <div id="Name">Blockchain Phone Shop</div>
+            <div id="List">
+                <div id="One" class="item"></div>
+                <div id="Two" class="item"></div>
+                <div id="Three" class="item"></div>
+                <div id="iPhone" class="text">
+                    手机型号：iPhone <br>
+                    价钱：$500
+                </div>
+                <div id="Sumsung" class="text">
+                    手机型号：Sumsung <br>
+                    价钱：$350
+                </div>
+                <div id="HUAWEI" class="text">
+                    手机型号：HUAWEI <br>
+                    价钱：$390
+                </div>
+            </div>
+            <div id="Mes">
+                <div id="data">
+                    <p id="pos1">手机型号：<input id="phone" class="form" name="phone" type="text"><span></span></p>
+                    <p id="pos2">购买数量：<input id="number" class="form" name="number" type="text"><span></span></p>
+                    <p id="pos3">需付金额：<input id="money" class="form" name="money" type="text"><span></span></p>
+                    <p id="pos4">点击下单：<input id="submit" class="form" name="submit" type="submit" value="确认" onclick="App.costomerPurchase()"></p>
+                </div>
+                <div id="status">
+                    <span id="message">Welcome!</span>
+                    <input id="Sending" type="submit" value="确认发货" onclick="App.sendPhone()"><input id="Confirm" type="submit" value="确认收货" onclick="App.comfirmReceive()">
+                    <div id="current">当前账号号码：<span id="AccountStatus">0</span></div>
+                    <div id="select">账号：<input id="acc" type="text" value = "0"><input id="bnt" type="button" value="登陆" onclick="App.signUp()"></div>
+                </div>
+            </div>
+            <div id="Info">
+                <p class="Fin" id="c1">你的剩余金额为：<span id="Balance">5000</span></p>
+                <p class="Fin" id="c2">联系店家Email: <br>
+                liangjh45@mail2.sysu.edu.cn
+                </p>
+                <p class="Fin" id="c3">
+                致电热线: <br>
+                139203849523
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
+
