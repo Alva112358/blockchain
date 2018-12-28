@@ -1,11 +1,11 @@
 # 区块链原理与技术期末项目
-** Author: Liang Junhua **
-** Email: liangjh45@mail2.sysu.edu.cn **
+**Author: Liang Junhua**
+**Email: liangjh45@mail2.sysu.edu.cn**
 
 ## 项目运行注意事项
 
 项目使用的操作系统为**mac OS**，为确保项目的正常运行，请使用mac OS<br>
-运行时需要开启两个终端：
+运行时需要进入DApp目录开启两个终端：
 第一个终端运行：
 ```
   > ganache-cli -e 3001 -l 99999999999999 -g 20000
