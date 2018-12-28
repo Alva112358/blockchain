@@ -1,5 +1,5 @@
 # 区块链原理与技术期末项目
-**Author: Liang Junhua**
+**Author: Liang Junhua**<br>
 **Email: liangjh45@mail2.sysu.edu.cn**
 
 ## 项目运行注意事项
